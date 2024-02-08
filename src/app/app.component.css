@@ -1,0 +1,11 @@
+.circle {
+  width: 80px;
+  height: 80px;
+  background-color: transparent;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.filled {
+  background-color: red;
+}

@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'tic5';
+  isChecked = false;
+
+  onCheckboxChange() {
+    this.isChecked = !this.isChecked;
+  }
 }
